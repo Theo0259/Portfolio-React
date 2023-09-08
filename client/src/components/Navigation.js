@@ -1,7 +1,8 @@
 //Ecrire rafce
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 
 import { Link } from 'react-router-dom';
+
 
 // import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
@@ -13,6 +14,7 @@ const Navigation = () => {
   //On gère nos paramètrages ici
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
